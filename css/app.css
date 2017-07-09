@@ -1,0 +1,35 @@
+body {
+
+}
+
+.app {
+
+}
+
+.board {
+    width: 200px;
+    height: 200px;
+}
+
+.board__row {
+    width: 100%;
+    height: 33%;
+}
+
+.board__row-cell {
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    outline: 2px solid #000;
+    position: relative;
+}
+
+.board__row-cell--marked-x:before {
+    content: "X";
+    position: absolute;
+}
+
+.board__row-cell--marked-o:before {
+    content: "0";
+    position: absolute;
+}
